@@ -42,6 +42,11 @@ body {
     background-image: url("../assets/beige-paintbrush-stroke-textured-background.jpg");
 }
 
+#main-container > p {
+    font-size: 1.5em;
+    text-align: center;
+}
+
 .info-container {
     display: flex;
     flex-direction: row-reverse;
