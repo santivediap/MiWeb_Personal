@@ -57,6 +57,7 @@ body {
 .right-container {
     flex: 50%;
     padding: var(--margin-container);
+    width: 10vh;
 }
 
 .left-container {
