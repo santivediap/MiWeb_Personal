@@ -55,7 +55,7 @@ nav {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url("/Proyecto/assets/beige-paintbrush-stroke-textured-background.jpg");
+    background-image: url("/assets/beige-paintbrush-stroke-textured-background.jpg");
 }
 
 #main-content {
