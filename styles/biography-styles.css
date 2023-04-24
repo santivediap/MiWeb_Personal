@@ -3,7 +3,7 @@
 }
 
 :root {
-    --margin: 3%;
+    --margin-container: 3%;
 }
 
 body {
@@ -78,13 +78,13 @@ h2 {
 
 .right-container {
     flex: 50%;
-    padding: 3%;
+    padding: var(--margin-container);
 }
 
 .left-container {
     flex: 50%;
     width: 2%;
-    padding: 3%;
+    padding: var(--margin-container);
     filter: drop-shadow(0px 0px 3px #000000);
 }
 
@@ -97,7 +97,7 @@ p {
 
 #footer-container {
     background-color: #FFFF;
-    padding: 2%;
+    padding: var(--margin-container);
     display: flex;
     align-items: flex-start;
     justify-content: flex-end;
