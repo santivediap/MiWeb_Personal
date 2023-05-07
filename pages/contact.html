@@ -36,29 +36,17 @@
                 </p>
 
                 <div class="info-container">
-                        <form method="get" action="contact.html" class="form-container">
-                            <div class="form-container">
-                                <div class="form-element">
-                                    <input type="text" placeholder="Nombre" maxlength="20" required>
-                                </div>
-                                <div class="form-element">
-                                    <input type="text" placeholder="Apellidos" maxlength="25" required>
-                                </div>
-                                <div class="form-element">
-                                    <input type="email" placeholder="Email" maxlength="30" required>
-                                </div>
-                                <div class="form-element">
-                                    <input type="number" placeholder="Teléfono" maxlength="30" required>
-                                </div>
-                                <div class="form-element">
-                                    <textarea placeholder="Razón de contacto" required maxlength="300"></textarea>
-                                </div>
-                                <div class="form-element">
-                                    <input type="submit" value="Enviar" required>
-                                </div>
-                            </div>
+                        <form action="" class="form-container" id="form">
+                                    <input class="form-element" name="name" type="text" placeholder="Nombre" maxlength="20">
+                                    <input class="form-element" name="lastnames" type="text" placeholder="Apellidos" maxlength="25">
+                                    <input class="form-element" name="email" type="email" placeholder="Email" maxlength="30">
+                                    <input class="form-element" name="number" type="number" placeholder="Teléfono" maxlength="30">
+                                    <textarea class="form-element" name="reason" placeholder="Razón de contacto" maxlength="300"></textarea>
+                                    <input class="form-element" name="submit" type="submit" value="Enviar">
                         </form>
                 </div>
+
+                <p class="hidden-message" id="hidden-message">.</p>
 
                 <h1>Otras formas de contactarme</h1>
 
@@ -80,20 +68,9 @@
                         <p>nomereobeiselmail@gmail.com</p>
                     </div>
                 </div>
-
-                <!-- <div class="info-container">
-                    <video controls class="left-container">
-                        <source src="../assets/video_tiktok.mp4" type="video/mp4">
-                    </video>
-                    <div class="right-container">
-                        <h2>TikTok</h2>
-                        <p>También soy creador de contenido a tiempo parcial jajajaja</p>
-                        <p>De vez en cuando subo vídeos en TikTok, ya puede ser jugando a algo, o incluso cantando (también canto a tiempo parcial)</p>
-                        <p>A la derecha se muestra uno de mis últimos vídeos publicados en la plataforma :))</p>
-                    </div>
-                </div> -->
             </section>
         </main>
+        <script src="../script.js"></script>
         <footer>
             <section id="footer-container">
                 <div class="container">

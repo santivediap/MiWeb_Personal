@@ -52,6 +52,19 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    width: 100%;
+}
+#hidden-message {
+    color: #ff0000;
+    text-align: center;
+}
+
+.hidden-message {
+    visibility: hidden;
+}
+
+.shown-message {
+    visibility: visible;
 }
 
 .right-container {
@@ -65,13 +78,17 @@ body {
     width: var(--margin-container);
     justify-content: space-between;
     align-items: center;
+    width: 100%;
     padding: var(--margin-container);
     filter: drop-shadow(0px 0px 3px #000000);
 }
 
 .form-element {
     padding: 1dvh;
-    flex-wrap: wrap;
+    margin: 1dvh;
+    border-radius: 20px 20px;
+    width: 60%;
+    border: 0.5dvh solid #000000;
 }
 
 .left-container {
@@ -149,6 +166,7 @@ audio {
 img {
     flex: 50%;
     width: 15dvh;
+    width: 50%;
     padding: var(--margin-container);
     filter: drop-shadow(0px 0px 3px #000000);
 }
